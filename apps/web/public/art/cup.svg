@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="720" viewBox="0 0 640 720">
+  <title>Một chiếc tách — nghiên cứu hình khối nguyên bản</title>
+  <defs>
+    <pattern id="grain" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M1 3h1m3 3h1" stroke="#71695d" stroke-opacity=".12" stroke-width=".7"/></pattern>
+    <pattern id="lines" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 0v6" stroke="#f5f1e9" stroke-opacity=".13" stroke-width=".6"/></pattern>
+  </defs>
+  <path fill="#e5dfd3" d="M0 0h640v720H0z"/>
+  <path fill="url(#grain)" d="M0 0h640v720H0z"/>
+  <path d="M93 487h454M93 493h454" stroke="#a79c8a" stroke-width=".7"/>
+  <ellipse cx="337" cy="489" rx="179" ry="30" fill="#c3aa91"/>
+  <ellipse cx="315" cy="483" rx="158" ry="17" fill="none" stroke="#895442" stroke-width="1"/>
+  <circle cx="414" cy="353" r="67" fill="none" stroke="#35352e" stroke-width="21"/>
+  <path d="M179 292h214v103c0 53-45 88-107 88s-107-35-107-88z" fill="#35352e"/>
+  <path d="M179 292h214v103c0 53-45 88-107 88s-107-35-107-88z" fill="url(#lines)"/>
+  <ellipse cx="286" cy="292" rx="107" ry="22" fill="#777265"/>
+  <ellipse cx="286" cy="292" rx="95" ry="14" fill="#25231f"/>
+  <path d="m220 275 9 13 7-15" fill="#e5dfd3"/>
+  <path d="M257 238c-34-37 22-53-2-89m54 89c-34-37 22-53-2-89" fill="none" stroke="#895442" stroke-width=".9"/>
+  <path d="M110 114h42m-21-21v42M489 600h42m-21-21v42" stroke="#a79c8a" stroke-width=".7"/>
+  <circle cx="320" cy="589" r="3" fill="none" stroke="#895442" stroke-width=".7"/>
+</svg>

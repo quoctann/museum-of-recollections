@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="720" viewBox="0 0 640 720">
+  <title>Khoảng lặng — nghiên cứu hình khối nguyên bản</title>
+  <defs>
+    <clipPath id="arch"><path d="M175 532V289a145 145 0 0 1 290 0v243z"/></clipPath>
+    <pattern id="grain" width="9" height="9" patternUnits="userSpaceOnUse"><path d="M2 2h1m4 5h1" stroke="#71695d" stroke-opacity=".13" stroke-width=".7"/></pattern>
+  </defs>
+  <path fill="#e9e2d6" d="M0 0h640v720H0z"/>
+  <path fill="url(#grain)" d="M0 0h640v720H0z"/>
+  <path d="M153 548V289a167 167 0 0 1 334 0v259z" fill="#895442"/>
+  <g clip-path="url(#arch)">
+    <path fill="#d3ccba" d="M170 140h300v400H170z"/>
+    <circle cx="365" cy="292" r="42" fill="#af7556"/>
+    <path d="m150 430 142-75 100 47 90-31v190H150z" fill="#a5a18b"/>
+    <path d="m150 486 171-73 161 53v95H150z" fill="#6a6e5e"/>
+    <path d="M166 490h315m-315 15h315m-315 15h315" stroke="#d3ccba" stroke-width=".8"/>
+    <path d="m237 562 92-140m-64 140 70-140" stroke="#25231f" stroke-width="1.3"/>
+    <path d="M320 140v405" stroke="#895442" stroke-width="7"/>
+  </g>
+  <path d="M141 548h358l27 22H116z" fill="#b99175"/>
+  <path d="M116 570h410v9H116z" fill="#744636"/>
+  <path d="M320 96v-22m-11 11h22M320 622v-22m-11 11h22" stroke="#71695d" stroke-width=".7"/>
+  <path d="M88 579h28m410 0h28" stroke="#a79c8a" stroke-width=".7"/>
+</svg>

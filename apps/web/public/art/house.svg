@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="720" viewBox="0 0 640 720">
+  <title>Một nơi để trở về — nghiên cứu hình khối nguyên bản</title>
+  <defs>
+    <pattern id="paper" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M1 2h1m3 4h1" stroke="#71695d" stroke-opacity=".1" stroke-width=".7"/></pattern>
+    <pattern id="rain" width="30" height="48" patternUnits="userSpaceOnUse"><path d="M20 0 8 25" stroke="#71695d" stroke-width=".7" stroke-opacity=".35"/></pattern>
+    <pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M0 5 5 0" stroke="#f5f1e9" stroke-opacity=".13" stroke-width=".6"/></pattern>
+  </defs>
+  <path fill="#e9e2d6" d="M0 0h640v720H0z"/>
+  <path fill="url(#paper)" d="M0 0h640v720H0z"/>
+  <circle cx="397" cy="206" r="95" fill="#d4c6ae"/>
+  <circle cx="397" cy="206" r="111" fill="none" stroke="#bcb09e" stroke-width=".6"/>
+  <path fill="url(#rain)" d="M76 65h488v350H76z"/>
+  <path d="M76 568h488M76 574h488" stroke="#aaa08f" stroke-width=".7"/>
+  <path d="m129 534 326-13 98 47H229z" fill="#c9bdab"/>
+  <path d="M166 358 317 239l150 119v176H166z" fill="#895442"/>
+  <path d="m317 239 150 119v176H317z" fill="#744636"/>
+  <path d="M166 358 317 239l150 119v176H166z" fill="url(#hatch)"/>
+  <path d="m136 358 181-143 180 143" fill="none" stroke="#25231f" stroke-width="2"/>
+  <path d="M282 534V424a35 35 0 0 1 70 0v110" fill="#25231f"/>
+  <path d="M294 532V426a23 23 0 0 1 23-23v129" fill="#ab8064"/>
+  <path d="M204 392h42v48h-42z" fill="#d4c6ae"/>
+  <path d="M225 392v48m-21-24h42" stroke="#895442"/>
+  <path d="M398 392h29v48h-29z" fill="#372e27"/>
+  <path d="M318 567v44" stroke="#895442" stroke-width=".6"/>
+  <path d="M81 620h18m-9-9v18m459-9h18m-9-9v18" stroke="#71695d" stroke-width=".7"/>
+  <circle cx="318" cy="620" r="3" fill="none" stroke="#895442" stroke-width=".7"/>
+</svg>

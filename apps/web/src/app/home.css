@@ -1,0 +1,363 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 5%;
+  align-items: center;
+  padding-block: 76px 96px;
+}
+.hero-copy {
+  padding-block: 20px;
+}
+.hero-copy .eyebrow {
+  margin-bottom: 32px;
+  font-size: 9px;
+  letter-spacing: 0.1em;
+}
+.tiny-cross {
+  color: var(--accent);
+  font-size: 19px;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+.hero h1 {
+  margin-left: -4px;
+}
+.hero h1 em {
+  display: inline-block;
+}
+.hero-description {
+  max-width: 45ch;
+  font-size: 12px;
+  line-height: 2.2;
+  color: var(--muted);
+  margin-block: 30px 24px;
+}
+.hero-footnote {
+  margin-top: 62px;
+  font-size: 8px;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.status-dot {
+  width: 4px;
+  height: 4px;
+  background: var(--accent);
+  border-radius: 50%;
+}
+.hero-art {
+  position: relative;
+  margin-right: 22px;
+  padding-top: 22px;
+}
+.hero-art .art-frame {
+  aspect-ratio: 0.79;
+}
+.hero-art figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 15px;
+  font-size: 8px;
+  color: var(--muted);
+}
+.vertical-note {
+  position: absolute;
+  right: -32px;
+  top: 22px;
+  writing-mode: vertical-rl;
+  font-size: 8px;
+  color: var(--muted);
+}
+.collection-preview {
+  padding-block: 56px 100px;
+  border-top: 1px solid var(--line);
+}
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 52px;
+  gap: 24px;
+}
+.section-heading h2 {
+  font-size: clamp(30px, 3.2vw, 44px);
+  margin-top: 18px;
+  line-height: 1.45;
+}
+.small-link {
+  font-size: 11px;
+  gap: 18px;
+  padding-block: 4px;
+}
+.small-link .label {
+  color: var(--muted);
+  font-size: 9px;
+}
+.preview-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 12%;
+}
+.preview-grid .article-card:nth-child(2) {
+  padding-top: 118px;
+}
+.card-link {
+  display: block;
+}
+.card-art {
+  position: relative;
+  overflow: hidden;
+}
+.card-art .art-frame {
+  aspect-ratio: 1.06;
+}
+.specimen-02 .card-art .art-frame {
+  aspect-ratio: 0.93;
+}
+.art-catalogue {
+  position: absolute;
+  bottom: 16px;
+  left: 20px;
+  color: var(--muted);
+  font-size: 8px;
+}
+.card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--muted);
+  text-transform: uppercase;
+  margin-top: 23px;
+  font-size: 8px;
+}
+.card-meta > span:first-child {
+  color: var(--accent);
+}
+.article-card h2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: baseline;
+  font-size: clamp(25px, 2.3vw, 33px);
+  line-height: 1.5;
+  margin-block: 12px;
+}
+.card-arrow {
+  font-family: var(--font-sans);
+  font-size: 22px;
+  color: var(--accent);
+}
+.article-card p {
+  font-size: 12px;
+  line-height: 2;
+  color: var(--muted);
+  max-width: 45ch;
+}
+.card-link:hover h2 {
+  color: var(--accent);
+}
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10%;
+  border-top: 1px solid var(--line);
+  padding-block: 84px 110px;
+}
+.about-index {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+.about-index span {
+  font-size: 64px;
+  color: var(--accent);
+  line-height: 1;
+}
+.about-copy h2 {
+  font-size: clamp(30px, 3.4vw, 48px);
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.about-copy p {
+  font-size: 14px;
+  line-height: 2.1;
+  color: var(--muted);
+  margin-bottom: 16px;
+  max-width: 52ch;
+}
+.about-signature {
+  display: block;
+  font-size: 8px;
+  margin-top: 40px;
+  color: var(--accent);
+}
+.collection-page {
+  padding-block: 76px 60px;
+}
+.collection-intro h1 {
+  margin-top: 26px;
+}
+.collection-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 30px;
+  margin-top: 30px;
+}
+.collection-description p {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 2;
+}
+.collection-description .label {
+  color: var(--muted);
+  font-size: 9px;
+}
+.collection-divider {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 18px;
+  border-top: 1px solid var(--line);
+  margin-top: 70px;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-size: 9px;
+}
+.collection-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 84px 10%;
+  margin-top: 25px;
+}
+.collection-grid .article-card:nth-child(2) {
+  padding-top: 100px;
+}
+.collection-grid .article-card:nth-child(3) {
+  max-width: 88%;
+}
+.end-mark {
+  text-align: center;
+  color: var(--accent);
+  font-size: 24px;
+  padding-block: 65px 24px;
+}
+
+@media (max-width: 1100px) {
+  .hero {
+    gap: 4%;
+  }
+  .hero h1 {
+    font-size: clamp(44px, 6.4vw, 70px);
+  }
+  .hero-copy .eyebrow {
+    max-width: 240px;
+  }
+  .desktop-break {
+    display: none;
+  }
+  .hero-footnote {
+    margin-top: 36px;
+  }
+}
+@media (max-width: 700px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding-block: 30px 60px;
+    gap: 30px;
+  }
+  .hero h1 {
+    font-size: clamp(46px, 10.8vw, 72px);
+  }
+  .hero-copy .eyebrow {
+    max-width: none;
+    font-size: 8px;
+    margin-bottom: 26px;
+  }
+  .hero-description {
+    font-size: 13px;
+    margin-top: 25px;
+  }
+  .hero-footnote {
+    margin-top: 30px;
+  }
+  .hero-art {
+    margin-left: 20%;
+    margin-right: 18px;
+    padding-top: 0;
+  }
+  .hero-art .art-frame {
+    aspect-ratio: 0.94;
+  }
+  .vertical-note {
+    right: -24px;
+    top: 0;
+  }
+  .hero-art figcaption {
+    font-size: 7px;
+  }
+  .preview-grid,
+  .collection-grid {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+  .preview-grid .article-card:nth-child(2),
+  .collection-grid .article-card:nth-child(2) {
+    padding-top: 0;
+    margin-left: 12%;
+  }
+  .collection-grid .article-card:nth-child(3) {
+    max-width: 100%;
+    margin-right: 10%;
+  }
+  .section-heading {
+    display: block;
+    margin-bottom: 32px;
+  }
+  .section-heading .text-link {
+    margin-top: 20px;
+  }
+  .collection-preview {
+    padding-block: 32px 56px;
+  }
+  .article-card h2 {
+    font-size: 28px;
+  }
+  .card-meta {
+    margin-top: 18px;
+  }
+  .about-section {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding-block: 42px 60px;
+  }
+  .about-index {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about-index span {
+    font-size: 30px;
+  }
+  .about-copy h2 {
+    font-size: 32px;
+  }
+  .collection-page {
+    padding-top: 42px;
+  }
+  .collection-description {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .collection-divider {
+    margin-top: 40px;
+  }
+  .collection-grid {
+    margin-top: 14px;
+  }
+}
